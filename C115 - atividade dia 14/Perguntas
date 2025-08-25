@@ -1,0 +1,48 @@
+#Alunas: Clara de Lima Azevedo e Maria Eduarda de Oliveira
+
+1-Explique o conceito de Web Service segundo a definição da Gartner. 
+    Um Web Service é um componente de software que possibilita a comunicação entre diversas aplicações por meio da internet ou de uma rede. De acordo com a Gartner, trata-se de um serviço disponível por meio de uma interface padronizada, fundamentado em protocolos como HTTP, XML e SOAP, o que possibilita a comunicação entre sistemas heterogêneos de forma independente da plataforma ou linguagem de programação.
+
+2-Explique a função do protocolo SOAP e descreva a composição de seu envelope. 
+    SOAP é um protocolo de mensagens utilizado para a comunicação entre aplicações por meio da rede.
+    Função: Assegurar a interoperabilidade entre diferentes sistemas, transportando dados de maneira organizada e padronizada.
+    Envelope SOAP: formato XML que especifica a mensagem:
+        Envelope: elemento raiz do documento SOAP.
+        Header: dados não obrigatórios a respeito da mensagem (por exemplo, autenticação).
+        Body: parte principal, que contém dados ou instruções do serviço.
+        Fault: seção opcional que devolve falhas da operação.
+
+3-Quais são os três elementos principais de uma arquitetura de Web Service? 
+    Provedor de Serviço: responsável pela oferta do serviço.
+    Registro de Serviços: local de publicação do serviço.
+    Consumidor de Serviço: é quem consome ou utiliza o serviço.
+
+4-O que é WSDL e quais são os elementos básicos que o compõem?
+    WSDL é um XML que define o serviço web, abrangendo suas operações, parâmetros e tipos de dados.
+    Componentes fundamentais:
+        type: especifica os tipos de dados utilizados.
+        message: estabelece o conteúdo das mensagens enviadas.
+        portType: estabelece as operações acessíveis.
+        binding: estabelece o protocolo e o formato da mensagem.
+        service: estabelece o local de acesso ao serviço.
+
+5-Qual é a função do UDDI em Web Services? 
+    O UDDI é um diretório de serviços web que possibilita a publicação de serviços pelos provedores e a busca e utilização desses serviços pelos clientes de maneira padronizada.
+
+6-O que é REST e quem o criou? 
+    REST é um padrão arquitetônico para sistemas distribuídos que se baseia em recursos disponíveis por meio de URLs e operações HTTP e foi inventado por Roy Fielding, em 2000.
+
+7-Qual é a função de um recurso (Resource) no REST e como ele é identificado?  
+    Representa qualquer entidade ou informação acessível na aplicação (por exemplo, usuário, produto, pedido) e é identificado pelo URI exclusivo de cada recurso.
+
+8-O que é virtualização e quais são seus principais tipos de recursos virtualizados? 
+    Virtualização: Método que possibilita a criação de versões simuladas de recursos físicos, dissociando hardware de software.
+    Tipos mais relevantes:
+    Servidor virtualizado: vários sistemas operacionais em um único servidor físico.
+    Virtualização de armazenamento: combinação de vários dispositivos de armazenamento em um só.
+    Virtualização de rede: transformação de redes físicas em redes lógicas.
+
+9-O que é um container Docker e o que ele empacota?
+    Container Docker é um ambiente separado para a execução de aplicações. Ele empacota código da aplicação, bibliotecas, dependências e configurações, assegurando que opere de maneira idêntica em qualquer sistema.
+
+
